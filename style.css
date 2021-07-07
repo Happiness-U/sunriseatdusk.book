@@ -79,7 +79,7 @@ section{
 #firstbook {
     max-width: 800px;
      margin-top: 15%;
-    margin-bottom: 6%;
+    /* margin-bottom: 6%; */
 }
 #sepa > hr, i {
    margin-top: -10%;
