@@ -3,23 +3,24 @@
     padding: 0;
     margin: 0;
 }
-/* html, */
+
+html,
 body{
-    height: 100vh;
-    max-height: 100vh; 
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
     max-width: 100vw;
     overflow-x: hidden;
 }
 
+
 section{
     max-width: 100%;
 }
   #mainMenuWrapper {
-    width: 100%;
-    position: sticky;
+    position: fixed;
     top: 0;
+    width: 100%;
     background-color: #000000;
+    z-index: 99;
 }
 .menu{
    justify-content: space-between;
